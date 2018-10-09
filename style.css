@@ -1,0 +1,32 @@
+body 
+{border:5px solid black;font-family: Ariel 
+Background-color: #0ff00f;}
+
+div{
+display: block;
+margin-top:20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left; 20px;
+
+}
+
+.header{
+		background-color: #F1F1F1;
+		text-align: center;
+		padding:20px
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2
+	text-align: 
+	padding: 14px
+	text-decoration:
+}
+
+.topnav a:hover{ 
+	background-color: #dfd; 
+	color: black; 
+}
