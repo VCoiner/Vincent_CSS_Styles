@@ -19,11 +19,13 @@ ul {
     margin: 0;
     padding: 5;
     overflow: hidden;
-    background-color: #303888;}
+    background-color: #303888;
+	}
 
 
 li {
-    float: left;}
+    float: left;
+	}
 
 	
 li a{
@@ -31,12 +33,14 @@ li a{
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;}
+    text-decoration: none;
+	}
 
 	
 /* Hovering color code*/ 
 li a:hover {
-    background-color: #1E2154;}
+    background-color: #1E2154;
+	}
 	
 /* footer style code*/ 
 .footer{
@@ -47,7 +51,8 @@ li a:hover {
    background-color: #303888;
    color: white;
    text-decoration: bold;
-   text-align: center;}
+   text-align: center;
+   }
 
 * {
     box-sizing: border-box;
@@ -56,7 +61,7 @@ li a:hover {
 /* Create two columns next to each other */
 .column {
     float: left;
-    padding: 10px;
+    padding: 150px;
     height: 300px; 
 }
 
@@ -77,6 +82,15 @@ li a:hover {
     clear: both;
 }
 	
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.container {
+    padding: 2px 16px;
+}
 	
 	
 	
